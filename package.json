@@ -1,0 +1,28 @@
+{
+  "name": "vet-clinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-include": "^2.4.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-tinypng-compress": "^1.2.5",
+    "sass": "^1.54.9",
+    "webpack": "^5.74.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "scripts": {
+    "dev": "npx gulp watch",
+    "build": "npx gulp build",
+    "minifyImg": "npx gulp image",
+    "minifyCss": "npx gulp minify"
+  },
+  "author": "",
+  "license": "ISC"
+}
